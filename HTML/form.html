@@ -3,16 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML From</title>
+    <title>HTML Form</title>
   </head>
   <body>
-    <form action="">
-      <label for="">User name</label>
-      <input type="text" /><br />
-      <label for="">Password</label>
-      <input type="password" /><br />
-      <button>Log In</button>
+    <form>
+      <div>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" placeholder="Sobuj" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="sobuj@group.com" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Sobuj" />
+      </div>
+
+      <div>
+        <input type="color" /> <br />
+        <input type="date" /> <br />
+        <input type="range" /> <br />
+        <input type="file" /> <br />
+      </div>
+
+      <div>
+        <p>Your Favorite Language</p>
+        <input type="radio" name="fav_lang" id="html" />
+        <label for="html">HTML</label> <br />
+        <input type="radio" name="fav_lang" id="css" />
+        <label for="css">CSS</label> <br />
+        <input type="radio" name="fav_lang" id="js" />
+        <label for="js">JavaScript</label> <br />
+      </div>
+
+      <div><input type="submit" name="Register""></div>
     </form>
-    <p></p>
   </body>
 </html>
